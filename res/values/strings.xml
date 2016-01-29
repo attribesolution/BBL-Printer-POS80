@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PrintDemo</string>
+    <string name="btnConn">Connect WIFI Printer</string>
+    <string name="btnPrint">Print</string>
+    <string name="btn_test">Print  Test  Page</string>
+    <string name="btnClose">Close</string>
+    <string name="txt_content">&quot;&quot;</string>
+    <string name="strLang">en</string>
+    <string name="lblAddressIp">Ip-Address:</string>
+
+</resources>

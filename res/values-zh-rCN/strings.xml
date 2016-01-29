@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PrintDemo</string>
+    <string name="btnConn">连接WIFI打印机</string>
+    <string name="btnPrint">打印</string>
+    <string name="btn_test">打印测试页</string>
+    <string name="btnClose">关闭</string>
+    <string name="txt_content">&quot;&quot;</string>
+    <string name="strLang">ch</string>
+    <string name="lblAddressIp">IP地址:</string>
+
+</resources>

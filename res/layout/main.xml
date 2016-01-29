@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/title_paired_devices"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:paddingLeft="5dp"
+        android:text="@string/lblAddressIp"
+        android:textColor="#fff" />
+
+        <EditText
+            android:id="@+id/txt_ip"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical|top"
+            android:text="192.168.1.100"
+            android:textSize="16sp" >
+
+    </EditText>
+    <Button
+        android:id="@+id/btn_conn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnConn" >
+    </Button>
+    <EditText
+        android:id="@+id/txt_content"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:gravity="center_vertical|top"
+        android:text="@string/txt_content"
+        android:textSize="16sp" >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnPrint" >
+
+</Button>
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_test" >
+</Button>
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnClose" >
+</Button>
+</LinearLayout>
